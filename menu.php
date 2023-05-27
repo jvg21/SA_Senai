@@ -7,14 +7,14 @@
 <body>
 
 <?php
-require_once($_SERVER['DOCUMENT_ROOT']."/base/pipoteca.php");
+require_once($_SERVER['DOCUMENT_ROOT']."/SA_Senai/base/pipoteca.php");
 if (isset($_SESSION["nivel"])) {
   $nivel = $_SESSION["nivel"];
   $Email = $_SESSION["email"];
   $Usuario = $_SESSION['nome_usuario'];
   //echo 'Bom dia, '.$Usuario.' nivel:'.$nivel;
 }else{
-  header("Location: /index.php");
+  header("Location: /SA_Senai/index.php");
 }
 ?>
 <ul>
@@ -26,8 +26,8 @@ if (isset($_SESSION["nivel"])) {
           $li1='<li class="dropdown">
           <a href="javascript:void(0)" class="dropbtn">Agendar</a>
           <div class="dropdown-content">
-            <a href="/agendamento/agendar.php">Marcar Atendimentos</a>
-            <a href="/agendamento/clienteag.php">Meus Agendamentos</a>
+            <a href="/SA_Senai/agendamento/agendar.php">Marcar Atendimentos</a>
+            <a href="/SA_Senai/agendamento/clienteag.php">Meus Agendamentos</a>
           </div>
           </li>';
         }
@@ -36,18 +36,18 @@ if (isset($_SESSION["nivel"])) {
           $li1='<li class="dropdown">
           <a href="javascript:void(0)" class="dropbtn">Agendar</a>
           <div class="dropdown-content">
-            <a href="/agendamento/agendar.php">Marcar Atendimentos</a>
+            <a href="/SA_Senai/agendamento/agendar.php">Marcar Atendimentos</a>
           </div>
           </li>';
         }
-        $li2='<li><a href="CRUD/CLIENTE/alterar">Meus Dados</a></li>';
+        $li2='<li><a href="/SA_Senai/CRUD/CLIENTE/alterar.php">Meus Dados</a></li>';
 
         $li3='<li class="dropdown">
         <a href="javascript:void(0)" class="dropbtn">RH</a>
         <div class="dropdown-content">
 
-            <a href="/CRUD/FUNCIONARIO/cadastrar">Funcionário</a>
-            <a href="/CRUD/FUNCAO/Cadastrar">Função</a> 
+            <a href="/SA_Senai/CRUD/FUNCIONARIO/cadastrar.php">Funcionário</a>
+            <a href="/SA_Senai/CRUD/FUNCAO/Cadastrar.php">Função</a> 
 
         </div>
         </li>';
@@ -55,15 +55,15 @@ if (isset($_SESSION["nivel"])) {
           <a href="javascript:void(0)" class="dropbtn">Manutenção</a>
           <div class="dropdown-content">
           
-            <a href="/CRUD/Clinica/Cadastrar">Clínica</a>
-            <a href="/CRUD/SERVICO/Cadastrar">Serviço</a>
-            <a href="/permissoes/buscar.php">Permissões</a>
-            <a href="/relatorio/opcoes">Relatório</a>
+            <a href="/SA_Senai/CRUD/Clinica/Cadastrar.php">Clínica</a>
+            <a href="/SA_Senai/CRUD/SERVICO/Cadastrar.php">Serviço</a>
+            <a href="/SA_Senai/permissoes/buscar.php">Permissões</a>
+            <a href="/SA_Senai/relatorio/opcoes.php">Relatório</a>
             
           </div>
         </li>';
-        $li5='<li><a href="/agendamento/atendente.php">Meus Atendimentos</a></li>';
-        $li6='<li><a href="/agendamento/ver.php">Atendimentos</a></li>';
+        $li5='<li><a href="/SA_Senai/agendamento/atendente.php">Meus Atendimentos</a></li>';
+        $li6='<li><a href="/SA_Senai/agendamento/ver.php">Atendimentos</a></li>';
 
         switch($nivel){
           case 0: echo $li1,$li2;//cliente
@@ -81,7 +81,7 @@ if (isset($_SESSION["nivel"])) {
         }
         ?>
 
-        <li class="logout"><a href="/base/logout.php">Logout</a></li>
+        <li class="logout"><a href="/SA_Senai/base/logout.php">Logout</a></li>
 </ul>
 
 </body>

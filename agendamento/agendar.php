@@ -1,5 +1,5 @@
 <?php
-    require_once($_SERVER['DOCUMENT_ROOT']."/base/pipoteca.php");//BIBLIOTECA
+    require_once($_SERVER['DOCUMENT_ROOT']."/SA_Senai/base/pipoteca.php");//BIBLIOTECA
     $Nivel = $_SESSION["nivel"];
     $Email = $_SESSION["email"];
 ?>
@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo_agendamento.css">
     <title>Agendamento</title>
-    <script type="text/javascript" src="/JS/Mascaras.js"></script><!-- Mascaras nos inputs-->
+    <script type="text/javascript" src="/SA_Senai/JS/Mascaras.js"></script><!-- Mascaras nos inputs-->
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 		<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
 
@@ -35,17 +35,17 @@
 
     function voltar()
     {
-    window.location="/menu.php";
+    window.location="/SA_Senai/menu.php";
     }
 		</script>
 </head>
 <body>
     <div class="Banner">
-        <img src="Image/roxinho.jpg" alt="banner" />
+        <img src="./Image/roxinho.jpg" alt="banner" />
     </div>
     <h1 class="TITULOAgendamento" > Agendamento </h1>
     <div class="Nav">
-       <li><a href="../../menu.php">Menu</a></li> 
+       <li><a href="../../SA_Senai/menu.php">Menu</a></li> 
     </div>
     <form action="#" method="POST">
 

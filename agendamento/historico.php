@@ -1,5 +1,5 @@
 <?php
-require_once($_SERVER['DOCUMENT_ROOT']."/base/pipoteca.php");
+require_once($_SERVER['DOCUMENT_ROOT']."/SA_Senai/base/pipoteca.php");
 $Nivel = $_SESSION["nivel"];
 $Email = $_SESSION["email"];
 $data_hoje = date ('Y-m-d');
@@ -9,7 +9,7 @@ $data_hoje = date ('Y-m-d');
 <script>
 function age()
 {
-    window.location="/agendamento/clienteag.php";
+    window.location="/SA_Senai/agendamento/clienteag.php";
 }
 function voltar()
 {
@@ -25,7 +25,7 @@ function voltar()
         <img src="Image/roxinho.jpg" alt="banner" />
     </div>
     <div class="Nav">
-        <li><a href="../../menu.php">Menu</a></li>  
+        <li><a href="../../SA_Senai/menu.php">Menu</a></li>  
 		<li><a href="clienteag.php">Agendamentos</a></li>    
     </div>
 	<div class="Menu">

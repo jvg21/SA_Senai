@@ -1,5 +1,5 @@
 <?php 
- require_once($_SERVER['DOCUMENT_ROOT']."/SA_Cabelinho/base/pipoteca.php");?>
+ require_once($_SERVER['DOCUMENT_ROOT']."/SA_Senai/base/pipoteca.php");?>
 <html>
 <head>
 	<link rel="stylesheet" href="css/index_login.css" />
@@ -9,14 +9,14 @@
 	//se o login foi feito vai direto para o menu
 	if ((isset($_SESSION["conectado"])) && $_SESSION["conectado"]=="sistema"){
 
-		header("Location: /SA_Cabelinho/menu.php");//menu
+		header("Location: /SA_Senai/menu.php");//menu
 	}
 	//se nao foi feito o login ele abre o formulário
 	?>
 	
 	<div class="login-page">
 	  <div class="form">
-		<form class="login-form" method="POST" action='/SA_Cabelinho/base/login.php'>
+		<form class="login-form" method="POST" action='/SA_Senai/base/login.php'>
 		  <input type="email" placeholder="Email" name="email"/>
 		  <input type="password" placeholder="Senha" name="senha"/>
 		  <button class="btn">
@@ -26,7 +26,7 @@
         </svg>
 		  <span>ENTRAR</span>
 		</button>
-		  <p class="message">Não registrado? <a href="/SA_Cabelinho/CRUD/CLIENTE/cadastrar.php">Criar uma conta</a></p>
+		  <p class="message">Não registrado? <a href="/SA_Senai/CRUD/CLIENTE/cadastrar.php">Criar uma conta</a></p>
 		</form>
 		<div class="case">
 		<?php

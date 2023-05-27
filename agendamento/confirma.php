@@ -1,5 +1,5 @@
 <?php
-require_once($_SERVER['DOCUMENT_ROOT']."/base/pipoteca.php");//BIBLITECA
+require_once($_SERVER['DOCUMENT_ROOT']."/SA_Senai/base/pipoteca.php");//BIBLITECA
 $Cod_Pegar = $_POST["Alterar"];
 $conexao = conectadb();
 

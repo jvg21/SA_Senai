@@ -20,7 +20,7 @@ function GravarUsu(){
     $Telefone2 = $_POST["Tel2"];
 
     if($Email!=$Cmail){///SE OS EMAILS NÃO CORRESPONDEREM E O USUÁRIO IGNORAR O AVISO VOLTA PRA TELA INICIAL DE CADASTRO
-        header("Location: /CRUD/Cliente/cadastrar.php");
+        header("Location: /SA_Senai/CRUD/Cliente/cadastrar.php");
     }
     $BCE = BCEname($Bairro,$Cidade,$Estado);//TRANFORMA OS NOMES EM ID
 
@@ -51,7 +51,7 @@ function GravarUsu(){
     echo'
         <script>
             alert("Dados cadastrados com sucesso!");
-            window.location="/index.php";
+            window.location="/SA_Senai/index.php";
         </script>';
     }
 }

@@ -8,7 +8,7 @@
 <body>
     <?php
         
-        require_once($_SERVER['DOCUMENT_ROOT']."/base/pipoteca.php");
+        require_once($_SERVER['DOCUMENT_ROOT']."/SA_Senai/base/pipoteca.php");
         //print_r($_POST);
         if (isset($_POST["enviado"]))
         {

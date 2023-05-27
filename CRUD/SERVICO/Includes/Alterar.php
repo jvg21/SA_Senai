@@ -2,7 +2,7 @@
 <body>
 <div class="DivDadosAlterar">
 <?php	
-require_once($_SERVER['DOCUMENT_ROOT']."/base/pipoteca.php");
+require_once($_SERVER['DOCUMENT_ROOT']."/SA_Senai/base/pipoteca.php");
 
 $Servico="";
 $Duracao="";

@@ -1,5 +1,5 @@
 <?php
-    require_once($_SERVER['DOCUMENT_ROOT']."/base/pipoteca.php");//biblioteca
+    require_once($_SERVER['DOCUMENT_ROOT']."/SA_Senai/base/pipoteca.php");//biblioteca
     require_once("auxiliar.php");
     error_reporting(0);
 
@@ -11,12 +11,12 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <script src="/JS/jquery-3.6.0.min.js"></script>
-    <script src="/JS/CEP.js"></script> <!-- Buscador de CEP-->
-    <script type="text/javascript" src="/JS/Mascaras.js"></script><!-- Mascaras nos inputs-->
+    <script src="/SA_Senai/JS/jquery-3.6.0.min.js"></script>
+    <script src="/SA_Senai/JS/CEP.js"></script> <!-- Buscador de CEP-->
+    <script type="text/javascript" src="/SA_Senai/JS/Mascaras.js"></script><!-- Mascaras nos inputs-->
 
-    <link href="/css/css_cadastrar.css" type="text/css" rel="stylesheet">
-    <link href="Cadastrar.css" type="text/css" rel="stylesheet">
+    <link href="/SA_Senai/css/css_cadastrar.css" type="text/css" rel="stylesheet">
+    <link href="./Cadastrar.css" type="text/css" rel="stylesheet">
     <title>Cadastrar Conta</title>
 </head>
 <body>
@@ -32,7 +32,7 @@
         }
     }
     function voltar(){
-        window.location="/index.php";
+        window.location="/SA_Senai/index.php";
     }
 
 </script>

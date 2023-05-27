@@ -1,5 +1,5 @@
 <?php
-include($_SERVER['DOCUMENT_ROOT']."/base/pipoteca.php");
+include($_SERVER['DOCUMENT_ROOT']."/SA_Senai/base/pipoteca.php");
 $Email = $_SESSION["email"];
 require_once("auxiliar.php");
 error_reporting(0);
@@ -9,10 +9,10 @@ error_reporting(0);
 <!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
-    <script src="/JS/jquery-3.6.0.min.js"></script>
-    <script src="/JS/CEP.js"></script> <!-- Buscador de CEP-->
-    <script type="text/javascript" src="/JS/Mascaras.js"></script><!-- Mascaras nos inputs-->
-    <link href="/css/css_cadastrar.css" type="text/css" rel="stylesheet">
+    <script src="/SA_Senai/JS/jquery-3.6.0.min.js"></script>
+    <script src="/SA_Senai/JS/CEP.js"></script> <!-- Buscador de CEP-->
+    <script type="text/javascript" src="/SA_Senai/JS/Mascaras.js"></script><!-- Mascaras nos inputs-->
+    <link href="/SA_Senai/css/css_cadastrar.css" type="text/css" rel="stylesheet">
     <link href="Cadastrar.css" type="text/css" rel="stylesheet">
     <title>Alterar Conta</title>  
 </head>
@@ -112,7 +112,7 @@ if(isset($_GET["Cpf"]))
             echo'
             <script>
                 alert("Dados alterardos com sucesso!");
-                window.location="/Menu.php";  
+                window.location="/SA_Senai/Menu.php";  
             </script>';
 
         }
@@ -123,7 +123,7 @@ if(isset($_GET["Cpf"]))
             <script>
                 alert("Cpf inválido");
                 limpar();
-                window.location="/../menu.php";   
+                window.location="/SA_Senai/menu.php";   
             </script>';
     }  
     

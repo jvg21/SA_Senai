@@ -3,7 +3,7 @@
 <div class="DivDadosApagar">
 <?php
 
-require_once($_SERVER['DOCUMENT_ROOT']."/base/pipoteca.php");//biblioteca
+require_once($_SERVER['DOCUMENT_ROOT']."/SA_Senai/base/pipoteca.php");//biblioteca
 
 $codigo=$_POST["Apagar"];
 

@@ -1,6 +1,6 @@
 <?php
 echo "<div class='DivHorarios' >";
-    require_once($_SERVER['DOCUMENT_ROOT']."/base/pipoteca.php");
+    require_once($_SERVER['DOCUMENT_ROOT']."/SA_Senai/base/pipoteca.php");
 
     $atendente = $_GET['q']; // Pega o valor do atendente
 

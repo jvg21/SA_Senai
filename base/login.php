@@ -32,7 +32,7 @@ if((isset($_POST['email']))&&(isset($_POST['senha'])))
 			}
 			else 
 			{
-				header("Location: /index.php?msg=2");
+				header("Location: /SA_Senai/index.php?msg=2");
 				exit();
 			}
 		} else

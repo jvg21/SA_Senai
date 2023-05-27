@@ -1,5 +1,5 @@
 <?php
-    require_once($_SERVER['DOCUMENT_ROOT']."/base/pipoteca.php");
+    require_once($_SERVER['DOCUMENT_ROOT']."/SA_Senai/base/pipoteca.php");
     function rlz($Cod)
     {   
         $conexao2=conectadb();
@@ -21,7 +21,7 @@
         <img src="Image/roxinho.jpg" alt="banner" />
     </div>
     <div class="Nav">
-        <li><a href="../../menu.php">Menu</a></li> 
+        <li><a href="../../SA_Senai/menu.php">Menu</a></li> 
     </div>
     
 <div class="DadosAgendadoDia">

@@ -10,10 +10,10 @@
     <img src="Image/roxinho.jpg" alt="banner" />
     </div>
     <div class="Nav">
-        <li><a href="../../menu.php">Menu</a></li>   
+        <li><a href="../../SA_Cabelinho/menu.php">Menu</a></li>   
     </div>
 <?php
-require_once($_SERVER['DOCUMENT_ROOT']."/base/pipoteca.php");//BIBLIOTECA
+require_once($_SERVER['DOCUMENT_ROOT']."/SA_Senai/base/pipoteca.php");//BIBLIOTECA
 $data = date ('Y-m-d');//PEGA A DATA DE HOJE
 //echo $data;
 $Clinica = null;
