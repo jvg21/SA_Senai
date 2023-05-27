@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*===================================INDEX===============================*/
+
+
+/* BANNER */
+
+.Banner {
+    float: left;
+    width: 100%;
+}
+
+.Banner img {
+    width: 100%;
+    height: 150px;
+    vertical-align: middle;
+}
+
+
+/* MENU */
+
+.Nav {
+    position: absolute;
+    float: left;
+    width: 100%;
+    background: #000000;
+    opacity: 100%;
+    top: 110px;
+}
+
+.Nav li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    list-style: none;
+}
+
+.Nav a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.Nav a:hover {
+    background: rgb(46, 91, 224);
+}
+
+
+/*====================================================================================*/
+
+
+/*===================================CADASTRAR===============================*/
+
+.divCadastar {
+    position: relative;
+    top: 150px;
+    left: -50px;
+}
+
+.LBLServico {
+    position: relative;
+    left: 31%;
+    top: 70px;
+}
+
+.TXTServico {
+    position: relative;
+    left: 20%;
+    height: 35px;
+    top: 100px;
+    background-color: rgb(233, 233, 233);
+}
+
+.LBLValor {
+    position: relative;
+    left: 10px;
+    top: 70px;
+}
+
+.TXTValor {
+    position: relative;
+    left: -35px;
+    height: 35px;
+    top: 100px;
+    background-color: rgb(233, 233, 233);
+}
+
+.LBLDuracao {
+    position: relative;
+    left: 36.7%;
+    top: 70px;
+}
+
+.TXTDuracao {
+    position: relative;
+    left: 31.5%;
+    top: 100px;
+    height: 35px;
+    background-color: rgb(233, 233, 233);
+}
+
+.ButtonCad {
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    top: 200px;
+    left: 44.5%;
+    height: 40px;
+    width: 150px;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+
+/*===========================================================================*/
+
+
+/*===================================BUSCAR===============================*/
+
+.LBLBuscServico {
+    position: relative;
+    left: 465px;
+    top: 80px;
+}
+
+.TXTBuscServico {
+    position: relative;
+    left: 400px;
+    top: 110px;
+    height: 35px;
+    background-color: rgb(233, 233, 233);
+}
+
+.ButtonProcurar {
+    position: relative;
+    top: 130px;
+    left: 487px;
+    height: 35px;
+    width: 140px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.DivPHPServ {
+    position: relative;
+    top: 200px;
+}
+
+
+/*===========================================================================*/
+
+.DivDadosApagar {
+    position: fixed;
+    margin-top: 13%;
+    margin-left: 25px;
+}
+
+.ButtonApagar {
+    position: relative;
+    margin-top: 15px;
+    height: 35px;
+    width: 140px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.DivDadosAlterar {
+    position: fixed;
+    margin-top: 20%;
+    margin-left: 15%;
+}
+
+.TXTAltServico {
+    position: relative;
+    height: 35px;
+    background-color: rgb(233, 233, 233);
+}
+
+.TXTAltDuracao {
+    position: relative;
+    height: 35px;
+    background-color: rgb(233, 233, 233);
+}
+
+.TXTAltValor {
+    position: relative;
+    height: 35px;
+    background-color: rgb(233, 233, 233);
+}
+
+.ButtonAlterar {
+    position: relative;
+    top: 15px;
+    left: 38%;
+    height: 35px;
+    width: 140px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}

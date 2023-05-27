@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*===================================INDEX===============================*/
+
+
+/* BANNER */
+
+.Banner {
+    float: left;
+    width: 100%;
+}
+
+.Banner img {
+    width: 100%;
+    height: 150px;
+    vertical-align: middle;
+}
+
+
+/* MENU */
+
+.Nav {
+    position: absolute;
+    float: left;
+    width: 100%;
+    background: #000000;
+    opacity: 100%;
+    top: 110px;
+}
+
+.Nav li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    list-style: none;
+}
+
+.Nav a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.Nav a:hover {
+    background: rgb(46, 91, 224);
+}
+
+
+/*====================================================================================*/
+
+
+/*===================================CADASTRAR===============================*/
+
+.divSenha_Nome {
+    position: absolute;
+    top: 170px;
+}
+
+
+/* ================TXTS=============== */
+
+.TXTNome {
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+}
+
+.TXTSenha {
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*====================================*/
+
+.divData_CPF_RG {
+    position: absolute;
+    top: 210px;
+}
+
+
+/* ================TXTS=============== */
+
+.TXTData {
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+}
+
+.TXTCPF {
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+}
+
+.TXTRG {
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*====================================*/
+
+.divEmail {
+    position: absolute;
+    top: 250px;
+}
+
+
+/* ================TXT=============== */
+
+.TXTEmail {
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+}
+
+.TXTConfEmail {
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*====================================*/
+
+.divCEP {
+    position: absolute;
+    top: 290px;
+}
+
+
+/* ================TXT=============== */
+
+.TXTCEP {
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*====================================*/
+
+.divEndereco {
+    position: absolute;
+    top: 330px;
+}
+
+
+/* ================TXT=============== */
+
+.TXTRua {
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+}
+
+.TXTBairro {
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+}
+
+.TXTCidade {
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+}
+
+.TXTUF {
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+}
+
+.TXTNumero {
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+}
+
+.TXTComplemento {
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*====================================*/
+
+.divTelefone {
+    position: absolute;
+    top: 370px;
+}
+
+
+/* ================TXT=============== */
+
+.TXTTelefone {
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*====================================*/
+
+.ButtonVoltar {
+    position: absolute;
+    top: 420px;
+    height: 35px;
+    width: 100px;
+    left: 0px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.ButtonEnviar {
+    position: absolute;
+    top: 420px;
+    height: 35px;
+    width: 100px;
+    left: 110px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.TXTBuscCEP {
+    position: absolute;
+    top: 290px;
+    height: 35px;
+    width: 120px;
+    left: 182px;
+    color: blue;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.divTudo {
+    position: relative;
+    height: 450px;
+    width: 77%;
+    left: 150px;
+    top: -40px;
+}
+
+.TITULO {
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+    top: 55px;
+    margin-left: 150px;
+}
+
+.Checkbox {
+    position: relative;
+    top: 150px;
+}
+
+.TXTCheckbox {
+    position: relative;
+    font-weight: bold;
+    font-size: 15px;
+    top: 150px;
+}
+
+
+/*===========================================================================*/
+
+
+/*===================================BUSCAR===============================*/
+
+.TXTBuscNome {
+    position: relative;
+    height: 35px;
+    left: 39%;
+    top: 35px;
+    background-color: rgb(255, 255, 255);
+}
+
+.ButtonProcurar {
+    position: relative;
+    height: 35px;
+    width: 120px;
+    left: 55%;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.combo {
+    position: relative;
+    width: 15px;
+    height: 10px;
+    top: 40px;
+    left: 25%;
+}
+
+
+/*===========================================================================*/
+
+
+/*===================================ALTERAR=================================*/
+
+.LBLTitulo {
+    position: relative;
+    margin-left: 15px;
+    top: 45px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.TXTAltNome {
+    margin-left: 15px;
+    position: relative;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    top: 120px;
+}
+
+.TXTAltCEP {
+    position: relative;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    top: 120px;
+}
+
+.TXTAltRua {
+    position: relative;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    top: 120px;
+}
+
+.TXTAltBairro {
+    position: relative;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    top: 120px;
+}
+
+.TXTAltCidade {
+    position: relative;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    top: 120px;
+}
+
+.TXTAltUf {
+    position: relative;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    top: 120px;
+}
+
+.TXTAltNumero {
+    position: relative;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    top: 120px;
+}
+
+.TXTAltComplemento {
+    margin-left: 15px;
+    position: relative;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    top: 130px;
+}
+
+.TXTAltTel1 {
+    position: relative;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    top: 130px;
+}
+
+.TXTAltTel2 {
+    position: relative;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    top: 130px;
+}
+
+.AltClinica {
+    margin-left: 15px;
+    position: relative;
+    top: 150px;
+}
+
+.AltFuncao {
+    margin-left: 15px;
+    position: relative;
+    top: 150px;
+}
+
+.AltTurno {
+    margin-left: 15px;
+    position: relative;
+    top: 150px;
+}
+
+.LBLAltCheckbox {
+    margin-left: 15px;
+    position: relative;
+    top: 150px;
+}
+
+.AltCheckbox {
+    position: relative;
+    top: 150px;
+}
+
+.ButtonAltCEP {
+    position: absolute;
+    height: 35px;
+    top: 52%;
+    left: 46%;
+    width: 125px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.AltButton {
+    position: absolute;
+    height: 35px;
+    top: 52%;
+    left: 57%;
+    width: 120px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.DivInativar {
+    margin-left: 15px;
+    position: fixed;
+    top: 25%;
+    width: 35%;
+}
+
+.ButtonInativar {
+    margin-top: 15px;
+    position: absolute;
+    height: 35px;
+    width: 120px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}

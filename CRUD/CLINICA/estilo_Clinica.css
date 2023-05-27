@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*===================================INDEX===============================*/
+
+
+/* BANNER */
+
+.Banner {
+    float: left;
+    width: 100%;
+}
+
+.Banner img {
+    width: 100%;
+    height: 150px;
+    vertical-align: middle;
+}
+
+
+/* MENU */
+
+.Nav {
+    position: absolute;
+    float: left;
+    width: 100%;
+    background: #000000;
+    opacity: 100%;
+    top: 110px;
+}
+
+.Nav li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    list-style: none;
+}
+
+.Nav a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.Nav a:hover {
+    background: rgb(46, 91, 224);
+}
+
+
+/*====================================================================================*/
+
+
+/*===================================CADASTRAR===============================*/
+
+.TXTClinica {
+    position: relative;
+    margin-left: 15px;
+    top: 35px;
+    height: 35px;
+    background-color: rgb(233, 233, 233)
+}
+
+.TXTGerente {
+    position: relative;
+    top: 35px;
+    height: 35px;
+    background-color: rgb(233, 233, 233)
+}
+
+.TXTCEP {
+    position: relative;
+    top: 35px;
+    height: 35px;
+    background-color: rgb(233, 233, 233)
+}
+
+.TXTRua {
+    position: relative;
+    margin-left: 15px;
+    top: 15px;
+    height: 35px;
+    background-color: rgb(233, 233, 233)
+}
+
+.TXTBairro {
+    position: relative;
+    top: 15px;
+    height: 35px;
+    background-color: rgb(233, 233, 233)
+}
+
+.TXTCidade {
+    position: relative;
+    top: 15px;
+    height: 35px;
+    background-color: rgb(233, 233, 233)
+}
+
+.TXTUf {
+    position: relative;
+    top: 15px;
+    height: 35px;
+    background-color: rgb(233, 233, 233)
+}
+
+.TXTNumero {
+    position: relative;
+    top: 15px;
+    height: 35px;
+    background-color: rgb(233, 233, 233)
+}
+
+.TXTComplemento {
+    position: relative;
+    top: 15px;
+    height: 35px;
+    background-color: rgb(233, 233, 233)
+}
+
+.TXTTel1 {
+    position: relative;
+    top: 15px;
+    height: 35px;
+    background-color: rgb(233, 233, 233)
+}
+
+.TXTTel2 {
+    position: relative;
+    margin-left: 15px;
+    top: 30px;
+    height: 35px;
+    background-color: rgb(233, 233, 233)
+}
+
+.ButtonCadastrar {
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    top: 50px;
+    left: 45%;
+    height: 40px;
+    width: 150px;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.ButtonCEP {
+    position: relative;
+    margin-left: 15px;
+    left: 45%;
+    height: 35px;
+    width: 140px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+
+/*===========================================================================*/
+
+
+/*===================================BUSCAR===============================*/
+
+.LBLBuscClinica {
+    position: relative;
+    top: 15px;
+    left: 30%;
+}
+
+.TXTBuscClinica {
+    position: relative;
+    top: 15px;
+    left: 30%;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+}
+
+.ButtonProcurar {
+    position: relative;
+    top: -20px;
+    height: 35px;
+    width: 100px;
+    left: 50%;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+
+/*===========================================================================*/
+
+.DivDados {
+    position: fixed;
+    margin-left: 15px;
+    top: 25%;
+}
+
+.ButtonApagar {
+    position: relative;
+    margin-top: 15px;
+    height: 35px;
+    width: 100px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.DivDadosAlterar {
+    position: fixed;
+    margin-left: 15px;
+    top: 35%;
+}
+
+.TXTAltGerente {
+    position: relative;
+    height: 35px;
+    background-color: rgb(233, 233, 233)
+}
+
+.TXTAltCEP {
+    position: relative;
+    height: 35px;
+    background-color: rgb(233, 233, 233)
+}
+
+.TXTAltRua {
+    position: relative;
+    height: 35px;
+    background-color: rgb(233, 233, 233)
+}
+
+.TXTAltBairro {
+    position: relative;
+    height: 35px;
+    background-color: rgb(233, 233, 233)
+}
+
+.TXTAltCidade {
+    position: relative;
+    height: 35px;
+    background-color: rgb(233, 233, 233)
+}
+
+.TXTAltUf {
+    position: relative;
+    height: 35px;
+    background-color: rgb(233, 233, 233)
+}
+
+.TXTAltNumero {
+    position: relative;
+    top: 15px;
+    height: 35px;
+    background-color: rgb(233, 233, 233)
+}
+
+.TXTAltComplemento {
+    position: relative;
+    top: 15px;
+    height: 35px;
+    background-color: rgb(233, 233, 233)
+}
+
+.TXTAltTel1 {
+    position: relative;
+    top: 15px;
+    height: 35px;
+    background-color: rgb(233, 233, 233)
+}
+
+.TXTAltTel2 {
+    position: relative;
+    top: 15px;
+    height: 35px;
+    background-color: rgb(233, 233, 233)
+}
+
+.ButtonAltCEP {
+    position: relative;
+    height: 35px;
+    width: 145px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.ButtonAlterar {
+    position: relative;
+    top: 120px;
+    left: -250px;
+    height: 35px;
+    width: 145px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}

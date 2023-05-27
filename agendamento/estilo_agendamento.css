@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*===================================INDEX===============================*/
+
+
+/* BANNER */
+
+.Banner {
+    float: left;
+    width: 100%;
+}
+
+.Banner img {
+    width: 100%;
+    height: 150px;
+    vertical-align: middle;
+}
+
+
+/* MENU */
+
+.Nav {
+    position: absolute;
+    float: left;
+    width: 100%;
+    background: #000000;
+    opacity: 100%;
+    top: 110px;
+}
+
+.Nav li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    list-style: none;
+}
+
+.Nav a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.Nav a:hover {
+    background: rgb(46, 91, 224);
+}
+
+
+/*====================================================================================*/
+
+
+/*===================================CADASTRAR===============================*/
+
+.TITULOAgendamento {
+    position: relative;
+    top: 25px;
+    margin-left: 33%;
+}
+
+.LBLCPF {
+    position: relative;
+    margin-left: 22%;
+    top: 100px;
+}
+
+.TXTCPF {
+    position: relative;
+    top: 100px;
+    height: 35px;
+    background-color: rgb(233, 233, 233)
+}
+
+.LBLClinica {
+    position: relative;
+    margin-left: 15px;
+    top: 100px;
+}
+
+.TXTClinica {
+    position: relative;
+    top: 100px;
+    height: 35px;
+    border-width: 2px;
+    border-color: rgb(90, 88, 88);
+    background-color: rgb(233, 233, 233)
+}
+
+.ButtonProcurar {
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    top: 149px;
+    left: 26%;
+    height: 40px;
+    width: 150px;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.ButtonMenu {
+    position: relative;
+    margin-left: 15px;
+    top: 110px;
+    left: 45%;
+    height: 40px;
+    width: 150px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.Nome_Filial {
+    position: relative;
+    margin-top: 15%;
+    margin-left: 25%;
+    font-weight: bold;
+    text-decoration: underline;
+    width: 200px;
+}
+
+.Nome_Cliente {
+    position: relative;
+    margin-left: 25%;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.LBLServico {
+    position: relative;
+    margin-left: 20%;
+}
+
+.SelectServico {
+    position: relative;
+    height: 35px;
+    border-width: 2px;
+    border-color: rgb(90, 88, 88);
+    background-color: rgb(233, 233, 233)
+}
+
+.LBLAtendente {
+    position: relative;
+    margin-left: 15px;
+}
+
+.SelectAtendente {
+    position: relative;
+    height: 35px;
+    border-width: 2px;
+    border-color: rgb(90, 88, 88);
+    background-color: rgb(233, 233, 233)
+}
+
+.LBLData {
+    position: relative;
+    margin-left: 20%;
+    top: 27px;
+}
+
+.InputData {
+    position: relative;
+    margin-left: 25%;
+    width: 150px;
+    height: 35px;
+    border-width: 2px;
+    background-color: rgb(233, 233, 233)
+}
+
+.LBLHora {
+    position: relative;
+    margin-left: 39%;
+    top: -47px;
+}
+
+.SelectHora {
+    position: relative;
+    margin-left: 44%;
+    top: -26px;
+    width: 150px;
+    height: 35px;
+    border-width: 2px;
+    background-color: rgb(233, 233, 233)
+}
+
+.ButtonEnviar {
+    position: relative;
+    left: 60%;
+    top: -82.5px;
+    height: 40px;
+    width: 150px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.DivHorarios {
+    position: relative;
+    border-style: double;
+    width: 450px;
+    top: 25px;
+    margin-bottom: 35px;
+    margin-left: 280px;
+}
+
+
+/*===========================================================================*/
+
+.LBLVerClinica {
+    position: relative;
+    margin-left: 15px;
+    top: 120px;
+}
+
+.SelectSelecioneClinica {
+    position: relative;
+    top: 120px;
+    width: 150px;
+    height: 35px;
+    border-width: 2px;
+    border-color: rgb(90, 88, 88);
+    background-color: rgb(233, 233, 233)
+}
+
+.InputVerData {
+    position: relative;
+    top: 120px;
+    width: 150px;
+    height: 35px;
+    border-width: 2px;
+    background-color: rgb(233, 233, 233)
+}
+
+.Menu {
+    position: relative;
+    margin-left: 15px;
+    margin-top: 8%;
+}
+
+.ButtonPesquisar {
+    position: relative;
+    left: 32%;
+    top: 85px;
+    height: 40px;
+    width: 150px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+.trabalha{
+    background: #22AF1E ;
+    font-size: small;
+}
+.nao_trabalha{
+    background:#D35555;
+    font-size: small;
+}
+.nao_encontrado {
+    color: red;
+}

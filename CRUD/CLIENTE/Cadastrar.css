@@ -1,0 +1,306 @@
+/*================================FORM2============================*/
+
+.TituloForm2 {
+    position: relative;
+    top: 15%;
+    margin-left: 25%;
+    font-size: 55px;
+    color: white;
+    font-weight: bold;
+}
+
+.DivCadastro {
+    position: relative;
+    height: 135px;
+    margin-top: 10%;
+}
+
+.TXTNome {
+    position: relative;
+    height: 35px;
+    margin-left: 15px;
+}
+
+.TXTCPF {
+    position: relative;
+    height: 35px;
+}
+
+.TXTRG {
+    position: relative;
+    height: 35px;
+}
+
+.InputData {
+    position: relative;
+    border-width: 2px;
+    border-color: rgb(32, 30, 143);
+    height: 35px;
+}
+
+.TXTEmail {
+    position: relative;
+    height: 35px;
+}
+
+.TXTConfEmail {
+    position: relative;
+    height: 35px;
+}
+
+.TXTCEP {
+    position: relative;
+    height: 35px;
+    top: 15px;
+    margin-left: 15px;
+}
+
+.TXTRua {
+    position: relative;
+    height: 35px;
+    top: 15px;
+}
+
+.TXTBairro {
+    position: relative;
+    height: 35px;
+    top: 15px;
+}
+
+.TXTCidade {
+    position: relative;
+    height: 35px;
+    top: 15px;
+}
+
+.TXTUf {
+    position: relative;
+    height: 35px;
+    top: 15px;
+}
+
+.TXTNumero {
+    position: relative;
+    height: 35px;
+    top: 15px;
+}
+
+.TXTComplemento {
+    position: relative;
+    height: 35px;
+    margin-left: 15px;
+    top: 30px;
+}
+
+.TXTTel1 {
+    position: relative;
+    height: 35px;
+    top: 30px;
+}
+
+.TXTTel2 {
+    position: relative;
+    height: 35px;
+    top: 30px;
+}
+
+.ButtonProcCep {
+    position: relative;
+    top: 15px;
+    height: 35px;
+    width: 150px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: rgb(100, 182, 237);
+}
+
+.ButtonForm2Voltar {
+    position: relative;
+    top: 30px;
+    height: 35px;
+    width: 150px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: rgb(100, 182, 237);
+}
+
+.ButtonEnviar {
+    position: relative;
+    top: 30px;
+    height: 35px;
+    width: 150px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: rgb(100, 182, 237);
+}
+
+
+/*====================================Alterar====================*/
+
+.LBLAltCPF {
+    position: relative;
+    color: white;
+    margin-left: 15px;
+    height: 35px;
+    top: 15px;
+}
+
+.TXTAltCPF {
+    position: relative;
+    height: 35px;
+    top: 15px;
+}
+
+.ButtonAltVoltar {
+    position: relative;
+    top: 15px;
+    height: 35px;
+    width: 150px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: rgb(100, 182, 237);
+}
+
+.ButtonAltEnviar {
+    position: relative;
+    top: 15px;
+    height: 35px;
+    width: 150px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: rgb(100, 182, 237);
+}
+
+
+/*===================================Alterar2=====================*/
+
+.TituloAlt2 {
+    position: relative;
+    font-size: 55px;
+    color: white;
+    left: 30%;
+    top: 15%;
+}
+
+.DivForm2Alterar {
+    position: relative;
+    height: 135px;
+    margin-top: 10%;
+}
+
+.TXTAlt2Nome {
+    position: relative;
+    height: 35px;
+}
+
+.TXTAlt2CPF {
+    position: relative;
+    height: 35px;
+}
+
+.TXTAlt2CEP {
+    position: relative;
+    height: 35px;
+}
+
+.TXTAlt2Rua {
+    position: relative;
+    height: 35px;
+}
+
+.TXTAlt2Bairro {
+    position: relative;
+    height: 35px;
+}
+
+.TXTAlt2Cidade {
+    position: relative;
+    height: 35px;
+}
+
+.TXTAlt2Uf {
+    position: relative;
+    height: 35px;
+    top: 15px;
+}
+
+.TXTAlt2Numero {
+    position: relative;
+    height: 35px;
+    top: 15px;
+}
+
+.TXTAlt2Tel1 {
+    position: relative;
+    height: 35px;
+    top: 15px;
+}
+
+.TXTAlt2Tel2 {
+    position: relative;
+    height: 35px;
+    top: 15px;
+}
+
+.TXTAlt2Complemento {
+    position: relative;
+    height: 35px;
+    top: 15px;
+}
+
+.ButtonAlt2ProcCEP {
+    position: relative;
+    top: -6px;
+    height: 35px;
+    width: 120px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.ButtonAlt2Voltar {
+    position: relative;
+    top: 15px;
+    height: 35px;
+    width: 120px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.ButtonAlt2Enviar {
+    position: relative;
+    top: 15px;
+    height: 35px;
+    width: 120px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}

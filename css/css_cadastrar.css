@@ -1,0 +1,87 @@
+body {
+    background-image: url('image_css/roxinho.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.login {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif"
+
+}
+
+.login p {
+    margin: 5px;
+}
+
+.caixa {
+    background-color: rgba(103, 48, 110, 0.342);
+    margin: 0 auto 100px;
+    padding: 45px;
+    margin: 5% 30%;
+    border-radius: 18%;
+    text-align: center;
+}
+
+.nome,
+.senha,
+.email {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.botao {
+    padding: 10px;
+    text-align: center;
+}
+
+.nome input,
+.email input,
+.senha input {
+    width: 600px;
+    height: 40px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    background-color: rgb(155, 165, 223);
+    border-color: rgb(98, 43, 226);
+    max-width: 90%;
+    border-style: solid;
+    font: bold;
+    color: white;
+}
+
+input[type="submit"],
+input[type="button"],
+.ButtonVoltar {
+    font-size: medium;
+    background-color: purple;
+    color: white;
+    border-style: solid;
+    border-color: rgb(78, 3, 78);
+    border-radius: 5px;
+    height: 35px;
+    width: 30%;
+}
+
+.box {
+    padding: 25px;
+}
+
+.box p {
+    color: white;
+    font-size: medium;
+    display: inline;
+}
+
+ ::placeholder {
+    color: white;
+}

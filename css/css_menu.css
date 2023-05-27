@@ -1,0 +1,95 @@
+body {
+    background-image: url('image_css/roxinho.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px 0px;
+}
+
+ul {
+    list-style-type: none;
+    position: fixed;
+    /*background-color: rgba(36, 180, 228, 0.623);*/
+    background-color: rgba(120, 100, 161, 0.671);
+    box-shadow: 0px 1px 25px 0px rgb(29, 29, 29);
+    padding: 0%;
+    margin: 2px 1px;
+    top: 0;
+    width: 100%;
+    height: 70px;
+}
+
+li {
+    padding: 9px;
+    display: inline;
+    float: left;
+}
+
+
+li a {
+    color: rgb(228, 231, 12);
+    text-decoration: none;
+    text-align: middle;
+    font-size: 20px;
+    padding: 20px;
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: black;
+    opacity: 84%;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: black;
+    opacity: 87%;
+    border-style: solid;
+    /*border-color: rgba(49, 49, 49, 0.514);*/
+    border-color: black;
+    box-shadow: 0px 18px 18px 0px rgb(29, 29, 29);
+}
+
+.home {
+    /*background-color: rgba(89, 4, 100, 0.842);*/
+    background-color: black;
+}
+
+li:hover .home {
+    /*background-color: rgba(89, 4, 100, 0.377);*/
+    box-shadow: 0px 10px 18px 0px rgb(29, 29, 29);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.723);
+    min-width: 132px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

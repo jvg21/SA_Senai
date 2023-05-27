@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*===================================INDEX===============================*/
+
+
+/* BANNER */
+
+.Banner {
+    float: left;
+    width: 100%;
+}
+
+.Banner img {
+    width: 100%;
+    height: 150px;
+    vertical-align: middle;
+}
+
+
+/* MENU */
+
+.Nav {
+    position: absolute;
+    float: left;
+    width: 100%;
+    background: #000000;
+    opacity: 100%;
+    top: 110px;
+}
+
+.Nav li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    list-style: none;
+}
+
+.Nav a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.Nav a:hover {
+    background: rgb(46, 91, 224);
+}
+
+
+/*===========================================================================*/
+
+.TableHistorico {
+    position: fixed;
+    border-style: groove;
+    margin-left: 10%;
+    margin-top: 20%;
+}
+
+.Table {
+    position: relative;
+    margin-left: 10%;
+    top: 130px;
+}
+
+.ButtonHistorico {
+    position: relative;
+    margin-left: 15px;
+    top: 210px;
+    left: 40%;
+    height: 40px;
+    width: 200px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.ButtonAgendamentos {
+    position: relative;
+    margin-left: 15px;
+    left: 9%;
+    top: 35px;
+    height: 40px;
+    width: 200px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.DadosAgendadoDia {
+    position: fixed;
+    left: 90px;
+    margin-top: 15%;
+    width: 100%;
+}
