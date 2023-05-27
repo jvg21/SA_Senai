@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*===================================INDEX===============================*/
+
+
+/* BANNER */
+
+.Banner {
+    float: left;
+    width: 100%;
+}
+
+.Banner img {
+    width: 100%;
+    height: 150px;
+    vertical-align: middle;
+}
+
+
+/* MENU */
+
+.Nav {
+    position: absolute;
+    float: left;
+    width: 100%;
+    background: #000000;
+    opacity: 100%;
+    top: 110px;
+}
+
+.Nav li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    list-style: none;
+}
+
+.Nav a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.Nav a:hover {
+    background: rgb(46, 91, 224);
+}
+
+
+/*====================================================================================*/
+
+
+/*===================================BUSCAR===============================*/
+
+.TXTNome {
+    position: relative;
+    height: 35px;
+    left: 30%;
+    top: 35px;
+    background-color: rgb(255, 255, 255);
+}
+
+.ButtonProcurar {
+    position: relative;
+    height: 35px;
+    width: 120px;
+    top: -35px;
+    left: 46%;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.ButtonVoltar {
+    position: relative;
+    height: 35px;
+    width: 120px;
+    left: 57%;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.combo {
+    position: relative;
+    width: 15px;
+    height: 10px;
+    top: 42px;
+    left: 18%;
+}
+
+
+/*===========================================================================*/
+
+.DadosAltPerm {
+    position: fixed;
+    margin-top: 15%;
+    left: 15px;
+}
+
+.ButtonAltVoltar {
+    position: relative;
+    margin-top: 15px;
+    height: 35px;
+    width: 120px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.ButtonConceder {
+    position: relative;
+    margin-top: 15px;
+    height: 35px;
+    width: 120px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
