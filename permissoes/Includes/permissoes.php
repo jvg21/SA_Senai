@@ -1,10 +1,10 @@
 <script>  
     function voltar(){
-        window.location="/menu.php";
+        window.location="/SA_Senai/menu.php";
     }
 
 </script>
-<?php include($_SERVER['DOCUMENT_ROOT']."/base/pipoteca.php");
+<?php include($_SERVER['DOCUMENT_ROOT']."/SA_Senai/base/pipoteca.php");
 
     $Clinica = "";  
 	$Nome = "";

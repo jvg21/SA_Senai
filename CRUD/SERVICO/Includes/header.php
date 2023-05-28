@@ -16,6 +16,6 @@
     </div>
     <div class="Nav">
         <li><a href="../../menu.php">Menu</a></li>    
-        <li><a href="cadastrar">Cadastrar</a></li>
-        <li><a href="buscar">Buscar</a></li>
+        <li><a href="cadastrar.php">Cadastrar</a></li>
+        <li><a href="buscar.php">Buscar</a></li>
     </div>

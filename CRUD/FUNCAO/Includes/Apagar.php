@@ -3,7 +3,7 @@
 <?php
 error_reporting(0);
 $codigo=$_POST["Apagar"];
-include($_SERVER['DOCUMENT_ROOT']."/base/pipoteca.php");
+include($_SERVER['DOCUMENT_ROOT']."/SA_Senai/base/pipoteca.php");
 
 $conexao = conectadb();
 
@@ -42,7 +42,7 @@ if(isset($_POST["Apagar2"])){
 	$conexao2->close();
     echo'<script>
             alert("Dados Apagar!");
-			window.location="/CRUD/FUNCAO/buscar.php";
+			window.location="/SA_Senai/CRUD/FUNCAO/buscar.php";
         </script>';
 	//header("Location: buscar.php");
 }

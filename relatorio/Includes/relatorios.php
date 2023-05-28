@@ -2,7 +2,7 @@
 <body>
 <div class="DivDadosRelatorios">
 <?php 
-require_once($_SERVER['DOCUMENT_ROOT']."/base/pipoteca.php");
+require_once($_SERVER['DOCUMENT_ROOT']."/SA_Senai/base/pipoteca.php");
 include("bibliorelatorios.php");
 ?>
 
@@ -17,7 +17,7 @@ include("bibliorelatorios.php");
         <input class="TXTData" type="date" name="Data" required>
         <label>Clinica: </label>
         <button class="ButtonServContr" type="submit" value="1" name="x">Relatório de Serviços Contratados</button>
-        <button class="ButtonRendFunc" type="submit" value="2" name="x">Relatório de Rendimento da Funcionário</button>
+        <button class="ButtonRendFunc" type="submit" value="2" name="x">Relatório de Rendimento do Funcionário</button>
         <?php 
         echo "<div class='Relatorioscombo' >";
         combo("Cod_Clinica","Nome_Filial","clinica","Clinica","false","True");

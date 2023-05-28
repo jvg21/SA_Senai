@@ -3,13 +3,13 @@
 <div class="DadosAltPerm" >
 <script>  
     function voltar(){
-        window.location="/permissoes/buscar.php";
+        window.location="/SA_Senai/permissoes/buscar.php";
     }
 
 </script>
 <?php
 
-	include($_SERVER['DOCUMENT_ROOT']."/base/pipoteca.php");	
+	include($_SERVER['DOCUMENT_ROOT']."/SA_Senai/base/pipoteca.php");	
 
 $codigo = $_POST["Permissao"];
 $Email = $_POST["Email"];
@@ -92,7 +92,7 @@ if(isset($_POST["Perfil"]) && isset($_POST["Permissao"]) && isset($_POST["Email"
 	$sql = "UPDATE usuario SET Nivel = $Permissao WHERE Email= '$Email'";
 	$conexao2->query($sql);
 	$conexao2->close();
-	header("Location: /permissoes/buscar.php");}?>
+	header("Location: /SA_Senai/permissoes/buscar.php");}?>
 </div>
 </body>
 </html>

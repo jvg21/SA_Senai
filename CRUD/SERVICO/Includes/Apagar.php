@@ -45,7 +45,7 @@ if(isset($_POST["Apagar2"])){
 	$conexao2->close();
     echo'<script>
             alert("Dados Apagados!");
-			window.location="/CRUD/SERVICO/buscar.php";
+			window.location="/SA_Senai/CRUD/SERVICO/buscar.php";
         </script>';
 	//header("Location: buscar.php");
 }

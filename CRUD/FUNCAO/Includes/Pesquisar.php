@@ -1,6 +1,6 @@
 <?php 
 error_reporting(0);
-require_once($_SERVER['DOCUMENT_ROOT']."/base/pipoteca.php");
+require_once($_SERVER['DOCUMENT_ROOT']."/SA_Senai/base/pipoteca.php");
 	$funcao="";
     $salario="";
     $codigo="";?>

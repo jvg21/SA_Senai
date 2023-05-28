@@ -3,7 +3,7 @@
 <div class="DivInativar">
 <?php
 error_reporting(0);
-include($_SERVER['DOCUMENT_ROOT']."/base/pipoteca.php");
+include($_SERVER['DOCUMENT_ROOT']."/SA_Senai/base/pipoteca.php");
 $codigo=$_POST["Apagar"];
 $conexao = conectadb();
 
@@ -73,7 +73,7 @@ if(isset($_GET["Apagar2"])){
 	$conexao2->close();
     echo'<script>
             alert("Dados Apagados!");
-			window.location="/CRUD/FUNCIONARIO/buscar.php";
+			window.location="/SA_Senai/CRUD/FUNCIONARIO/buscar.php";
         </script>';
 	//header("Location: buscar.php");
 }

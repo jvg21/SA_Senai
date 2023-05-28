@@ -3,7 +3,7 @@ error_reporting(0);
 	$Codigo="";
 	$Funcao="";
 	$Salario="";
-	include($_SERVER['DOCUMENT_ROOT']."/base/pipoteca.php");	
+	include($_SERVER['DOCUMENT_ROOT']."/SA_Senai/base/pipoteca.php");	
 
 $codigo=$_POST["Alterar"];
 
@@ -43,7 +43,7 @@ if(isset($_POST["Alterar2"])){
 	$conexao2->close();
 	echo'<script>
             alert("Dados Alterados!");
-			window.location="/CRUD/FUNCAO/buscar.php";
+			window.location="/SA_Senai/CRUD/FUNCAO/buscar.php";
         </script>';
 	//header("Location: buscar.php");
 	}?>

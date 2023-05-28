@@ -22,6 +22,7 @@ function showCustomer(str) {
 
 			<label class="LBLServico" > Serviço </label>
 			<select class="SelectServico" name="servico" id="servico" required>
+      <option value=""> Selecione o Procedimento Desejado</option>
 			<?php
 				$db = new mysqli("localhost","root","","sa");
 				$sql = "SELECT * FROM servico";

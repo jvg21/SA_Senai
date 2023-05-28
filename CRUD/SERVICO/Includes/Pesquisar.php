@@ -1,6 +1,6 @@
 <?php
     $servico="";
-    include($_SERVER['DOCUMENT_ROOT']."/base/pipoteca.php");
+    include($_SERVER['DOCUMENT_ROOT']."/SA_Senai/base/pipoteca.php");
 ?>
 
 <body>

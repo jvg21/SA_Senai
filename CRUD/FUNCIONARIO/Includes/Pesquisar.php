@@ -1,4 +1,4 @@
-<?php include($_SERVER['DOCUMENT_ROOT']."/base/pipoteca.php");
+<?php include($_SERVER['DOCUMENT_ROOT']."/SA_Senai/base/pipoteca.php");
 error_reporting(0);
     $Clinica = "";  
 	$Nome = "";

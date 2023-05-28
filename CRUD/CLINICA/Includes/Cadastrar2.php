@@ -1,6 +1,6 @@
 <?php
 error_reporting(0);
-include($_SERVER['DOCUMENT_ROOT']."/base/pipoteca.php");
+include($_SERVER['DOCUMENT_ROOT']."/SA_Senai/base/pipoteca.php");
 
 if(isset($_POST["Gerente"]) && isset($_POST["Clinica"]) && isset($_POST["Cep"]) 
 && isset($_POST["Numero"]) && isset($_POST["Rua"]))

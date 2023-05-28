@@ -100,7 +100,7 @@ echo'
        	echo "<img src='Image/roxinho.jpg' alt='banner' />";
     	echo "</div>";
     	echo "<div class='Nav'>";
-       	echo  "<li><a href='../../menu.php'>Menu</a></li> ";
+       	echo  "<li><a href='../../SA_Senai/menu.php'>Menu</a></li> ";
     	echo "</div>";
 
 		cabecalho();

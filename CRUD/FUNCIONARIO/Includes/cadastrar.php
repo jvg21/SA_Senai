@@ -1,5 +1,5 @@
 <?php
-    require_once($_SERVER['DOCUMENT_ROOT']."/base/pipoteca.php");//biblioteca
+    require_once($_SERVER['DOCUMENT_ROOT']."/SA_Senai/base/pipoteca.php");//biblioteca
     error_reporting(0);
 ?>
 
@@ -7,9 +7,9 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css.css" />
-    <script src="/JS/jquery-3.6.0.min.js"></script>
-    <script src="/JS/CEP.js"></script> <!-- Buscador de CEP-->
-    <script type="text/javascript" src="/JS/Mascaras.js"></script><!-- Mascaras nos inputs-->
+    <script src="/SA_Senai/JS/jquery-3.6.0.min.js"></script>
+    <script src="/SA_Senai/JS/CEP.js"></script> <!-- Buscador de CEP-->
+    <script type="text/javascript" src="/SA_Senai/JS/Mascaras.js"></script><!-- Mascaras nos inputs-->
 </head>
 <body>
 

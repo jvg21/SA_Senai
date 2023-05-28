@@ -51,7 +51,7 @@ if(isset($_POST["Alterar2"])){
 	$conexao2->close();
 	echo'<script>
             alert("Dados Alterados!");
-			window.location="/CRUD/SERVICO/buscar.php";
+			window.location="/SA_Senai/CRUD/SERVICO/buscar.php";
         </script>';}
 ?>
 </div>
